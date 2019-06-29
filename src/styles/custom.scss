@@ -1,0 +1,74 @@
+@import "variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+@mixin border-bottom($size) {
+    border-bottom: $size solid #000;
+}
+  
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  background: $body-background;
+  color: darken($brand-primary, 20%);
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: $primary-font-size;
+  background-clip: border-box;
+}
+
+p {
+  font-size: $secondary-font-size;
+}
+
+// .navbar-fixed-left {
+//   background: $sub-background;
+//   width: 150px;
+//   position: fixed;
+//   border-radius: 0;
+//   height: 100%;
+// }
+
+// .navbar-fixed-left a{
+//   color: $brand-primary;
+// }
+
+// .navbar-fixed-left {
+//   background: $sub-background;
+//   width: 150px;
+//   position: fixed;
+//   border-radius: 0;
+//   height: 100%;
+// }
+
+// .navbar-fixed-left a{
+//   color: $brand-primary;
+// }
+
+
+
+.card {
+  background: $sub-background;
+}
+
+.card * {
+  color: $brand-primary;
+}
+
+
+// .navbar-fixed-left .navbar-nav > li {
+//   float: none;
+//   width: 139px;
+// }
+
+
+// .navbar-fixed-left .navbar-nav > li {
+//   float: none;
+//   width: 139px;
+// }
+
+// .navbar-fixed-left + .container {
+//   padding-left: 160px;
+// }
+
