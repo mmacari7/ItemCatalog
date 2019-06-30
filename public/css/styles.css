@@ -7045,8 +7045,41 @@ html {
 p {
   font-size: 5.6; }
 
+.navbar {
+  margin: 0;
+  padding: 0;
+  width: 140px;
+  background-color: #4d4d4d;
+  position: fixed;
+  height: 100%;
+  overflow: auto; }
+
+.navbar-item a {
+  display: block;
+  color: white;
+  padding: 16px; }
+
+.container {
+  margin-left: 140px;
+  padding: 1px 16px; }
+
+@media screen and (max-width: 576px) {
+  .navbar {
+    width: 100%;
+    height: auto;
+    position: relative; }
+  .navbar-item a {
+    text-align: center;
+    float: none; }
+  .container {
+    margin-left: 0; } }
+
 .card {
   background: #4d4d4d; }
 
 .card * {
   color: #f2f2f2; }
+
+.modal-title,
+.modal-body {
+  color: black; }

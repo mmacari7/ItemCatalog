@@ -4,6 +4,7 @@ const cleanCSS = require("gulp-clean-css");
 const autoPrefix = require("gulp-autoprefixer");
 const gulpSASS = require("gulp-sass");
 const rename = require("gulp-rename");
+const minify = require("gulp-minify")
 
 const sassFiles = [
   "./node_modules/tether/dist/css/tether.css",

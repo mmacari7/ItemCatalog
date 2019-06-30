@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -28,129 +28,156 @@
             <li><a href="#"> Item 5 </a></li>
         </ul>
     </nav> --}}
-    <div class="container">
-        <nav class="navbar">
-            <ul class="nav navbar-nav">
-                <li><a href="#"> Item 1 </a></li>
-                <li><a href="#"> Item 2 </a></li>
-                <li><a href="#"> Item 3 </a></li>
-                <li><a href="#"> Item 4 </a></li>
-                <li><a href="#"> Item 5 </a></li>
-            </ul>
-        </nav>
-    </div>
+    <nav class="navbar" id="nav-scroll">
+        <ul class="nav navbar-nav">
+            <li class="navbar-item">
+                <a href="#flabana">Flabana</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#mtotem">Monkey Totem</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#bpencil">Broken Pencil</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#oesg">One Eye Sun Glasses</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#grass_sandle">Grandals</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#pham">Power Hammer</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#mt">Magic Tree</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#su">Shoe Umbrella</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#ug">Undrinkable Glass</a>
+            </li>
+            <li class="navbar-item">
+                <a href="#backwater">BackWater</a>
+            </li>
+        </ul>
+    </nav>
 
     <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="card">
-                    <img class="card-img-top" src="fire_banana.jpg">
-                    <div class="card-body">
-                        <h5 class="card-title">Flabana</h5>
-                        <p class="card-text">This banana is on fire. Thats right, on fire.</p>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#m_banana">About</button>
+        <div data-spy="scroll" data-target="nav-scroll" data-offset="0">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card" id="flabana">
+                        <img class="card-img-top" src="fire_banana.jpg" alt="Cant Load">
+                        <div class="card-body">
+                            <h5 class="card-title">Flabana</h5>
+                            <p class="card-text">This banana is on fire. Thats right, on fire.</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#m_banana">About</button>
+                        </div>
                     </div>
                 </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card" id="mtotem">
+                        <img class="card-img-top" src="monkey_metal.jpg" alt="Cant Load">
+                        <div class="card-body">
+                            <h5 class="card-title">Monkey Totem</h5>
+                            <p class="card-text">This metal monkey, keeps all your belongings safe.</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#m_monkey">About</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card" id="bpencil">
+                        <img class="card-img-top" src="broken_pencil.jpg" alt="Cant Load">
+                        <div class="card-body">
+                            <h5 class="card-title">Broken Pencil</h5>
+                            <p class="card-text">You and I both know you need this one</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#m_pencil">About</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card" id="oesg">
+                        <img class="card-img-top" src="cyclops_eyepatch.jpg" alt="Cant Load">
+                        <div class="card-body">
+                            <h5 class="card-title">One Eye Sun Glasses</h5>
+                            <p class="card-text">Are you a cyclops? This one may be right for you!</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#m_glasses">About</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card" id="grass_sandle">
+                        <img class="card-img-top" src="grass_sandals.jpg" alt="Cant Load">
+                        <div class="card-body">
+                            <h5 class="card-title">Grandals</h5>
+                            <p class="card-text">Love the feeling of grass on your feet? Get the grassy Sandles!</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#m_grass">About</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card" id="pham">
+                        <img class="card-img-top" src="hammer_power.jpg" alt="Cant Load">
+                        <div class="card-body">
+                            <h5 class="card-title">Power Hammer</h5>
+                            <p class="card-text">Need to hammer something in powerfully? This is the product for you!</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#m_hammer">About</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card" id="mt">
+                        <img class="card-img-top" src="magic_tree.jpg" alt="Cant Load">
+                        <div class="card-body">
+                            <h5 class="card-title">Magic Tree</h5>
+                            <p class="card-text">Grow a mystic magic tree for your business today!</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#m_magic">About</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card" id="su">
+                        <img class="card-img-top" src="shoe_ubrellas.jpg" alt="Cant Load">
+                        <div class="card-body">
+                            <h5 class="card-title">Shoe Umbrella</h5>
+                            <p class="card-text">Hate getting your feet wet when walking around in the rain? Shoe umbrellas could be right for you!</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#m_shoe">About</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card" id="ug">
+                        <img class="card-img-top" src="spike_glass.jpg" alt="Cant Load">
+                        <div class="card-body">
+                            <h5 class="card-title">Undrinkable Glass</h5>
+                            <p class="card-text">Hate when your friends keep drinking your drink? Well spike glass might be right for you!</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#m_spike">About</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card" id="backwater">
+                        <img class="card-img-top" src="useless_pot.jpg" alt="Cant Load">
+                        <div class="card-body">
+                            <h5 class="card-title">Back Water</h5>
+                            <p class="card-text">Never let your watering can go empty again with this fine product!</p>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#m_pot">About</button>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
-            <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="card">
-                    <img class="card-img-top" src="monkey_metal.jpg">
-                    <div class="card-body">
-                        <h5 class="card-title">Monkey Totem</h5>
-                        <p class="card-text">This metal monkey, keeps all your belongings safe.</p>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#m_monkey">About</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="card">
-                    <img class="card-img-top" src="broken_pencil.jpg">
-                    <div class="card-body">
-                        <h5 class="card-title">Broken Pencil</h5>
-                        <p class="card-text">You and I both know you need this one</p>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#m_pencil">About</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="card">
-                    <img class="card-img-top" src="cyclops_eyepatch.jpg">
-                    <div class="card-body">
-                        <h5 class="card-title">One Eye Sun Glasses</h5>
-                        <p class="card-text">Are you a cyclops? This one may be right for you!</p>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#m_glasses">About</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="card">
-                    <img class="card-img-top" src="grass_sandals.jpg">
-                    <div class="card-body">
-                        <h5 class="card-title">Grandals</h5>
-                        <p class="card-text">Love the feeling of grass on your feet? Get the grassy Sandles!</p>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#m_grass">About</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="card">
-                    <img class="card-img-top" src="hammer_power.jpg">
-                    <div class="card-body">
-                        <h5 class="card-title">Power Hammer</h5>
-                        <p class="card-text">Need to hammer something in powerfully? This is the product for you!</p>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#m_hammer">About</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="card">
-                    <img class="card-img-top" src="magic_tree.jpg">
-                    <div class="card-body">
-                        <h5 class="card-title">Magic Tree</h5>
-                        <p class="card-text">Grow a mystic magic tree for your business today!</p>
-                        <a href="#" class="card-link">About</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="card">
-                    <img class="card-img-top" src="shoe_ubrellas.jpg">
-                    <div class="card-body">
-                        <h5 class="card-title">Shoe Umbrella</h5>
-                        <p class="card-text">Hate getting your feet wet when walking around in the rain? Shoe umbrellas could be right for you!</p>
-                        <a href="#" class="card-link">About</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="card">
-                    <img class="card-img-top" src="spike_glass.jpg">
-                    <div class="card-body">
-                        <h5 class="card-title">Undrinkable Glass</h5>
-                        <p class="card-text">Hate when your friends keep drinking your drink? Well spike glass might be right for you!</p>
-                        <a href="#" class="card-link">About</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="card">
-                    <img class="card-img-top" src="useless_pot.jpg">
-                    <div class="card-body">
-                        <h5 class="card-title">Back Water</h5>
-                        <p class="card-text">Never let your watering can go empty again with this fine product!</p>
-                        <a href="#" class="card-link">About</a>
-                    </div>
-                </div>
-            </div>
 
         </div>
     </div>

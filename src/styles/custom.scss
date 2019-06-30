@@ -22,53 +22,54 @@ p {
   font-size: $secondary-font-size;
 }
 
-// .navbar-fixed-left {
-//   background: $sub-background;
-//   width: 150px;
-//   position: fixed;
-//   border-radius: 0;
-//   height: 100%;
-// }
+.navbar {
+  margin: 0;
+  padding: 0;
+  width: 140px;
+  background-color: $sub-background;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
 
-// .navbar-fixed-left a{
-//   color: $brand-primary;
-// }
+.navbar-item a{
+  display: block;
+  color: white;
+  padding: 16px;
+}
 
-// .navbar-fixed-left {
-//   background: $sub-background;
-//   width: 150px;
-//   position: fixed;
-//   border-radius: 0;
-//   height: 100%;
-// }
+.container {
+  margin-left: 140px;
+  padding: 1px 16px;
+//  height: 1000px;
+}
 
-// .navbar-fixed-left a{
-//   color: $brand-primary;
-// }
+// On smallest sccreen size place navbar on top
+@media screen and (max-width: 576px){
+  .navbar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
 
+  .navbar-item a{
+    text-align: center;
+    float: none;
+  }
 
+  .container {margin-left: 0;}
+}
 
 .card {
   background: $sub-background;
 }
 
+
 .card * {
   color: $brand-primary;
 }
 
-
-// .navbar-fixed-left .navbar-nav > li {
-//   float: none;
-//   width: 139px;
-// }
-
-
-// .navbar-fixed-left .navbar-nav > li {
-//   float: none;
-//   width: 139px;
-// }
-
-// .navbar-fixed-left + .container {
-//   padding-left: 160px;
-// }
-
+.modal-title,
+.modal-body {
+  color: black;
+}
